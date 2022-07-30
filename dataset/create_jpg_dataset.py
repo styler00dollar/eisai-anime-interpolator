@@ -2,6 +2,7 @@ import os.path
 import glob
 import os
 from tqdm import tqdm
+import cv2
 
 number = 0
 for name in tqdm(glob.glob("data/*/*")):
