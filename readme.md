@@ -4,6 +4,8 @@
 eisai-anime-interpolator
 ========================
 
+This fork just makes dataset creation easier and does some adjustments. Goal was to create a good high resolution jpg dataset.
+
 ![](./supplementary/teaser.png)
 
 

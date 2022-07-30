@@ -23,12 +23,3 @@ python3 -W ignore -m _scripts.extract_triplet_images \
     $2/video.mp4 \
     $2/rrld.txt \
     $2/images \
-&& \
-printf "\n======== EXTRACTING FLOWS ========\n" && \
-python3 -W ignore -m _scripts.extract_triplet_flows \
-    $2/images \
-    $2/flows
-
-
-
-
